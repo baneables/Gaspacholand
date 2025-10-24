@@ -2,7 +2,7 @@
 import anime from "animejs";
 
 const ANUNCIOS_PATH = 'anuncios/';
-const SAMPLE_SIGNUP = 'https://ejemplo.com/inscribirse';
+const SAMPLE_SIGNUP = 'https://docs.google.com/forms/d/e/1FAIpQLSc0UNUHpCMmY0f-umWe5G1D7wvw1zp5P0uU0yp11q6zEiQ8Fg/viewform?usp=dialog';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 document.getElementById('logo').src = ''; // deja vacío; el usuario puede poner su link
